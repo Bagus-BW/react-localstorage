@@ -1,0 +1,12 @@
+h1{
+    color: black;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+h1::after{
+    content: "";
+    display: block;
+    border: 2px solid black;
+    width: 180px;
+}
